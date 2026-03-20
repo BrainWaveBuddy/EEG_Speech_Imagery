@@ -36,7 +36,7 @@ Individual scripts provide either figures or accuracy measures for CSP filtering
 
 ### Common Spatial Pattern filters
 The CSP method generates a filtering matrix with orthonormal columns. Each column is referred to as CSP filter. The first and last column(s) maximizes the variance of one class compared to another. Multiplying the EEG data with the CSP matrix or individual filters brings the data into 'source'-space, reflecting some physiological underlying activity. In NTS vs VIm paradigm this lead to population filters.
-<img src="plotsAndFigures/topoplots/topoplot_1.jpg" alt="Topoplot 1" width="300">
+<img src="plotsAndFigures/topoplots/topoplot_1.jpg" alt="Topoplot 1" style="float: right; margin-left: 15px; max-width: 40%;">
 
 ### Power Spectral Density
 Taking it a step further we can analyze the spectral components of the sources. By estimating CSP filters and computing average periodograms across selected subjects we e.g. found Event Related Desynchronization of filters in some paradigms compared to others.
