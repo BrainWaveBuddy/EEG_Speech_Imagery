@@ -7,7 +7,7 @@ This repository contains MATLAB code for analyzing Electroencephalographic (EEG)
 ## Data
 
 Data was acquired from 17 healthy subjects (6 females) using the electrode layout shown below.
-<img src="plotsAndFigures/BlankTopoplot.png" alt="Blank Topoplot" width="400">
+<img src="plotsAndFigures/BlankTopoplot.png" alt="Blank Topoplot" width="300">
 
 Individual recordings are one minute in length and initiated by the subject at convenience. During the recording the subject is performing one of the following task paradigms:
 
@@ -38,11 +38,13 @@ Individual scripts provide either figures or accuracy measures for CSP filtering
 <img src="plotsAndFigures/topoplots/topoplot_1.jpg" alt="Topoplot 1" style="float: right; margin-left: 15px; margin-bottom: 15px;" width="600">
 
 The CSP method generates a filtering matrix with orthonormal columns. Each column is referred to as CSP filter. The first and last column(s) maximizes the variance of one class compared to another. Multiplying the EEG data with the CSP matrix or individual filters brings the data into 'source'-space, reflecting some physiological underlying activity. In NTS vs VIm paradigm this lead to population filters.
+<img src="plotsAndFigures/topoplots/topoplot_1.jpg" alt="Topoplot 1" style="float: right; margin-left: 15px; max-width: 40%;">
 
 ### Power Spectral Density
 <img src="plotsAndFigures/periodograms1.jpg" alt="Power Spectral Density" style="float: right; margin-left: 15px; margin-bottom: 15px;" width="700">
 
 Taking it a step further we can analyze the spectral components of the sources. By estimating CSP filters and computing average periodograms across selected subjects we e.g. found Event Related Desynchronization of filters in some paradigms compared to others.
+<img src="plotsAndFigures/periodograms1.jpg" alt="Power Spectral Density" width="400">
 
 
 ### Receiver-Operator Curves
