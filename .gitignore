@@ -1,5 +1,12 @@
 # Ignore contents of output and data folders
 plotsAndFigures/*
+# But keep the figures referenced in README
+!plotsAndFigures/BlankTopoplot.png
+!plotsAndFigures/topoplots/
+!plotsAndFigures/topoplots/topoplot_1.jpg
+!plotsAndFigures/periodograms1.jpg
+!plotsAndFigures/ROC_means.jpg
+
 computedResults/*
 recordings/FemaleSubjs/*
 recordings/MaleSubjs/*
